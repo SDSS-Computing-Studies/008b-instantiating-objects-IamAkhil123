@@ -1,5 +1,44 @@
 #!python3
 
+class veterinarian:1. 
+
+def __init__(self):
+   self.animal = input("What is your animal")
+   self.breed = input("What breed is your animal")
+   self.name = input("What is your animals name")
+   self.owner = int(input("What is the owners name?:"))
+   self.birthdate = int(input("What is your pets birthdate"))
+ 
+def display(self):  
+   output = str(self.name) + " " + self.breed + " " + self.owner
+   outputLength = len(output) 
+   print( outputLength * "=")
+   print( output)
+   print( outputLength * "=")
+
+def newpet():
+   animal = input("What is your animal")
+   breed = input("What breed is your animal")
+   name = int(input("What is your animals name"))
+   owner = int( input("What is the owners name?:"))
+   birthdate = int(input("What is your pets birthdate"))
+
+def exit():
+     exit()
+
+def retrieve():
+      u = input("Which pet?")
+
+
+
+x = input("1. Enter a new pet""\n""2. Retrieve a pet""\n""3. Exit")
+if x == 1:
+  newpet()
+if x == 2:
+  retrieve()
+if x == 3:
+  exit()
+
 """
 Create a class that will store a database for a veterinarian.
 Your class will need the following properties:
